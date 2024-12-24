@@ -16,8 +16,17 @@ body{
     min-height: 100vh;
 }
 
+
+.card__face--front h2{
+    font-size: 6.25rem;
+}
+
+.cards-container{
+    display: flex;
+    gap: 5px;
+}
+
 .card{
-    margin: 100px auto 0;
     width: 200px;
     height: 200px;
 }
